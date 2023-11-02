@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+.holder{
+	display:flex;
+	justify-content:space-evenly;
+	flex-wrap:wrap;
+}
+.ele{
+	widht:50px;
+	height:100px;
+	border:2px solid black;
+	padding:30px;
+}
+.one{
+	background-color:red;
+}
+.two{
+	background-color:blue;
+}
+.three{
+	background-color:green;
+}
